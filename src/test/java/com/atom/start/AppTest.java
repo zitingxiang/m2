@@ -35,4 +35,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    
+    public void testCal(){
+    	int result = new App().calculate(1, 2);
+    	assertEquals(3, result);
+    			
+    }
 }
