@@ -39,7 +39,7 @@ public class AppTest
     
     public void testCal(){
     	int result = new App().calculate(1, 2);
-    	assertEquals(35, result);
+    	assertEquals(3, result);
     			
     }
 }
