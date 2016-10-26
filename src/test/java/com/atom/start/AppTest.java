@@ -38,10 +38,12 @@ public class AppTest
         assertTrue( true );
     }
     
+    /*
     @Ignore("Pending more details from the BA")
     public void testCal(){
     //	int result = new App().calculate(1, 2);
     //	assertEquals(3, result);
     			
     }
+    */
 }
