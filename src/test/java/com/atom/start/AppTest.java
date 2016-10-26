@@ -4,6 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import org.junit.Ignore;
+
 /**
  * Unit test for simple App.
  */
@@ -36,7 +38,7 @@ public class AppTest
         assertTrue( true );
     }
     
-    
+    @Ignore("Pending more details from the BA")
     public void testCal(){
     	int result = new App().calculate(1, 2);
     	assertEquals(3, result);
