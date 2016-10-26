@@ -12,6 +12,9 @@ import org.junit.Ignore;
 public class AppTest 
     extends TestCase
 {
+	
+	/*
+	
     /**
      * Create the test case
      *
@@ -38,12 +41,12 @@ public class AppTest
         assertTrue( true );
     }
     
-    /*
-    @Ignore("Pending more details from the BA")
+    
+    //@Ignore("Pending more details from the BA")
     public void testCal(){
-    //	int result = new App().calculate(1, 2);
-    //	assertEquals(3, result);
+    	int result = new App().calculate(1, 2);
+    	assertEquals(3, result);
     			
     }
-    */
+    
 }
