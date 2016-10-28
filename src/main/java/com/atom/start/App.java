@@ -17,4 +17,9 @@ public class App
     	
     	return x+y;
     }
+    
+    public int calculate1(int x, int y) {
+    	
+    	return x+y;
+    }
 }
